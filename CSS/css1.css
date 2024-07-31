@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+}
+.miniContainer {
+  display: flex;
+  /* background-color: red; */
+  height: 90vh;
+  width: 130vh;
+  justify-content: center;
+  /* border-style: solid;
+  border-width: 2px 0px 0px 2px; */
+  border-radius: 15px;
+  box-shadow: 5px 10px 45px rgba(0, 0, 0, 0.8);
+  overflow: hidden;
+}
+.mainContainer {
+  height: 100vh;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Images/Background.png);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-color: aqua; */
+  /* background-image: linear-gradient(
+    45deg,
+    #c8c8c8,
+    #bebebe,
+    #a9a9a9,
+    #989898,
+    #888888,
+    #787878,
+    #696969,
+    #606060,
+    #505050,
+    #404040,
+    #303030,
+    #202020,
+    #101010,
+    #000000
+  ); */
+}
+.rightContainer {
+  height: 90%;
+  flex: 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  background-color: white;
+}
+.leftContainer {
+  height: 100%;
+  flex: 1.5;
+  background-image: url(../Images/Img7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  /* background-color: lavender; */
+  background-color: white;
+}
+.general {
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border-style: solid;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  color: purple;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  /* cursor: text; */
+}
+.textgeneral {
+  font-family: "Playwrite IT Moderna", cursive;
+  font-size: 156x;
+  font-weight: bold;
+}
+
+.button {
+  margin-top: 20px;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.button:hover {
+  opacity: 95%;
+}
+.button:active {
+  background-color: purple;
+  /* color: black; */
+}
